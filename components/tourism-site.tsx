@@ -37,6 +37,11 @@ export function TourismSite() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#070b16] text-white selection:bg-[#f6a623] selection:text-[#070b16]">
       <section id="top" className="relative isolate flex min-h-[760px] items-end overflow-hidden pb-20 md:min-h-screen md:pb-28">
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 -z-20 bg-cover bg-center"
+          style={{ backgroundImage: 'url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kranti%20chowk-B95dwY1CSROUUIDro02ZE4OtirwhYS.jpg")' }}
+        />
         <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(4,7,17,.92)_0%,rgba(4,7,17,.58)_40%,rgba(4,7,17,.12)_100%)]" />
         <div className="absolute inset-0 -z-10 bg-[linear-gradient(0deg,#070b16_0%,transparent_36%)]" />
 
