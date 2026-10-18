@@ -37,14 +37,9 @@ export function TourismSite() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#070b16] text-white selection:bg-[#f6a623] selection:text-[#070b16]">
       <section id="top" className="relative isolate flex min-h-[760px] items-end overflow-hidden pb-20 md:min-h-screen md:pb-28">
-        <img src="/ellora-hero.png" alt="Ellora Kailasa Temple illuminated at sunrise" className="absolute inset-0 -z-20 size-full object-cover object-center" />
         <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(4,7,17,.92)_0%,rgba(4,7,17,.58)_40%,rgba(4,7,17,.12)_100%)]" />
         <div className="absolute inset-0 -z-10 bg-[linear-gradient(0deg,#070b16_0%,transparent_36%)]" />
-        <div className="pointer-events-none absolute right-0 top-28 z-[-5] hidden h-[min(68vh,620px)] w-[42%] overflow-hidden rounded-l-[3rem] border-y border-l border-white/15 shadow-2xl shadow-black/30 lg:block">
-          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Delhi%20gate-erSC5vAscnVai39G77yGNJuDCtVl6i.jpg" alt="Delhi Gate in Chhatrapati Sambhajinagar" className="size-full object-cover object-center" />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#070b16] via-transparent to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#070b16]/70 via-transparent to-[#070b16]/10" />
-        </div>
+
         <div className="mx-auto w-full max-w-7xl px-5 md:px-10">
           <div className="max-w-3xl animate-[fadeUp_.9s_ease-out_both]">
             <p className="mb-5 flex items-center gap-3 text-xs font-semibold uppercase tracking-[.32em] text-[#f6a623]"><span className="h-px w-10 bg-[#f6a623]" /> Maharashtra · India</p>
