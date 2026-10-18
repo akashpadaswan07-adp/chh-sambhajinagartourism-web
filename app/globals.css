@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-poppins);
+  --font-serif: var(--font-playfair);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-border: var(--border);
+}
+
+:root {
+  --background: #070b16;
+  --foreground: #f8f8f5;
+  --border: rgba(255,255,255,.1);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--background); color: var(--foreground); font-family: var(--font-poppins), sans-serif; }
+.font-serif { font-family: var(--font-playfair), Georgia, serif; }
+.eyebrow { color: #f6a623; font-size: 10px; font-weight: 700; letter-spacing: .25em; text-transform: uppercase; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+::selection { background: #f6a623; color: #070b16; }
