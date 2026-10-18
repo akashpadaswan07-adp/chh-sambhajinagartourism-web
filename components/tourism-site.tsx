@@ -1,7 +1,7 @@
 'use client'
 
 import { useMemo, useState } from 'react'
-import { ArrowDown, ArrowRight, Clock3, Compass, Search, Ticket, X } from 'lucide-react'
+import { ArrowDown, ArrowRight, Clock3, Search, Ticket, X } from 'lucide-react'
 
 type Category = 'All' | 'Historical' | 'Nature' | 'Religious'
 
@@ -35,14 +35,6 @@ export function TourismSite() {
 
   return (
     <main className="min-h-screen overflow-hidden bg-[#070b16] text-white selection:bg-[#f6a623] selection:text-[#070b16]">
-      <header className="absolute inset-x-0 top-0 z-20 px-5 py-5 md:px-10">
-        <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-full border border-white/15 bg-[#071022]/55 px-5 py-3 backdrop-blur-xl">
-          <a href="#top" className="flex items-center gap-3 text-sm font-semibold tracking-[0.2em]"><span className="grid size-9 place-items-center rounded-full bg-[#f6a623] text-[#071022]"><Compass size={19} /></span><span className="hidden sm:block">SAMBHAJINAGAR<span className="text-[#f6a623]">.</span></span></a>
-          <div className="hidden items-center gap-8 text-xs uppercase tracking-[0.2em] text-white/65 md:flex"><a href="#discover" className="transition hover:text-white">Discover</a><a href="#about" className="transition hover:text-white">About</a></div>
-          <a href="#discover" className="flex items-center gap-2 rounded-full bg-[#f6a623] px-4 py-2 text-xs font-bold uppercase tracking-wider text-[#071022] transition hover:bg-white">Start exploring <ArrowRight size={14} /></a>
-        </nav>
-      </header>
-
       <section id="top" className="relative isolate flex min-h-[760px] items-end overflow-hidden pb-20 md:min-h-screen md:pb-28">
         <img src="/ellora-hero.png" alt="Ellora Kailasa Temple illuminated at sunrise" className="absolute inset-0 -z-20 size-full object-cover object-center" />
         <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(4,7,17,.92)_0%,rgba(4,7,17,.58)_40%,rgba(4,7,17,.12)_100%)]" />
