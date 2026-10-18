@@ -50,7 +50,7 @@ export function TourismSite() {
         <div className="mx-auto w-full max-w-7xl px-5 md:px-10">
           <div className="max-w-3xl animate-[fadeUp_.9s_ease-out_both]">
             <p className="mb-5 flex items-center gap-3 text-xs font-semibold uppercase tracking-[.32em] text-[#f6a623]"><span className="h-px w-10 bg-[#f6a623]" /> Maharashtra · India</p>
-            <h1 className="font-serif text-6xl leading-[.93] tracking-[-.04em] md:text-8xl lg:text-[112px]">The city<br /><em className="font-light text-[#f6a623]">of gates.</em></h1>
+            <h1 className="font-serif text-6xl leading-[.93] tracking-[-.04em] md:text-8xl lg:text-[112px]">The<br /><span className="bg-cover bg-center bg-clip-text text-transparent" style={{ backgroundImage: 'url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Delhi%20gate-erSC5vAscnVai39G77yGNJuDCtVl6i.jpg")' }}>city of gates.</span></h1>
             <p className="mt-7 max-w-md text-base leading-7 text-white/70 md:text-lg">Follow the stone, light and stories of Chhatrapati Sambhajinagar — a living archive of the Deccan.</p>
             <div className="mt-9 flex flex-wrap gap-3"><a href="#discover" className="flex items-center gap-3 rounded-full bg-white px-6 py-3 text-sm font-bold text-[#071022] transition hover:bg-[#f6a623]">Explore 8 wonders <ArrowDown size={16} /></a></div>
           </div>
